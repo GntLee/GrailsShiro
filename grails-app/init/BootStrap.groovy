@@ -32,7 +32,7 @@ class BootStrap {
             new ShiroRolePermissionRel(role3, p1, "*:*", "*").save(failOnError: true)
 
         }
-        org.apache.shiro.authz.permission.WildcardPermission
+       
     }
 
     def destroy = {
